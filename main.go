@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	// "log"
-	// "net/http"
 )
 
 func formHandler(w http.ResponseWriter, r *http.Request) {

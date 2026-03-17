@@ -3,9 +3,40 @@
 <head>
     <title>Static website </title>
 </head>
+<style>
+    /* 1. Reset margin and padding only */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* 2. Center everything on the screen */
+    body {
+        background-color: rgb(15, 175, 255);
+        height: 100vh;
+        /* Takes full height of the screen */
+        display: flex;
+        justify-content: center;
+        /* Horizontal center */
+        align-items: center;
+        /* Vertical center */
+        margin: 0;
+    }
+
+    .title {
+        color: rgb(242, 0, 255);
+        font-size: 50px;
+        font-family: sans-serif;
+        width: auto;
+        height: auto;
+        background: transparent;
+        /* So it doesn't block the body color */
+    }
+</style>
 
 <body>
-    <h2> static website</h2>
+    <h2 class="title"> static website</h2>
 </body>
 
 </html>
